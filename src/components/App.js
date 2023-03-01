@@ -39,6 +39,7 @@ const App = () => {
       return;
     }
     errors.map((err) => alert(err));
+    errors = [];
   };
 
   return (
